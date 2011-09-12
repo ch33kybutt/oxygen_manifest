@@ -3,7 +3,7 @@
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            review="codeaurora.org" />
-  <default revision="gingerbread_rel"
+  <default revision="gingerbread"
            remote="caf" />
 
   <remote name="github" fetch="git://github.com/" />
