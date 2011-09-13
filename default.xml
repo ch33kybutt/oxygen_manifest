@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="caf"
-           fetch="git://codeaurora.org/"
-           review="codeaurora.org" />
+  <remote name="korg"
+           fetch="http://android.git.kernel.org/"
+           review="review.source.android.com" />
   <default revision="gingerbread"
-           remote="caf" />
+           remote="korg" />
 
   <remote name="github" fetch="git://github.com/" />
 
