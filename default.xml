@@ -7,6 +7,8 @@
            remote="korg" />
 
   <remote name="github" fetch="git://github.com/" />
+  
+  <remote name="codeaurora" fetch="git://codeaurora.org/" />
 
   <project path="build" name="ch33kybutt/oxygen_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -128,8 +130,8 @@
   <project path="packages/apps/Contacts" name="ch33kybutt/oxygen_packages_apps_contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" remote="github" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
+  <project path="packages/apps/FM" name="platform/packages/apps/FM" revision="master" remote="codeaurora" />
   <project path="packages/apps/Gallery3D" name="oxygen-rom/android_packages_apps_gallery3d" remote="github" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="oxygen-rom/android_packages_apps_launcher2" remote="github" />
