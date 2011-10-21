@@ -3,12 +3,14 @@
   <remote name="korg"
            fetch="http://aosp.schiznik.net/"
            review="review.source.android.com" />
-  <default revision="gingerbread"
-           remote="korg" />
 
+  <remote name="goog"
+           fetch="https://android.googlesource.com/" />
+          
   <remote name="github" fetch="git://github.com/" />
   
-  <remote name="codeaurora" fetch="git://codeaurora.org/" />
+  <default remote="goog"
+           revision="gingerbread" />
 
   <project path="build" name="ch33kybutt/oxygen_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
