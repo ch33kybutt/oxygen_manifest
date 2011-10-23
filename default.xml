@@ -115,7 +115,7 @@
   <project path="hardware/broadcom/wlan" name="oxygen-rom/android_hardware_broadcom_wlan" remote="github" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="oxygen-rom/android_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="ch33kybutt/oxygen_hardware_msm7k" remote="github" />
+  <project path="hardware/msm7k" name="oxygen-rom/android_hardware_msm7k" remote="github" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="oxygen-rom/android_hardware_ril" remote="github" />
