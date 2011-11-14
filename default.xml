@@ -11,7 +11,7 @@
   <project path="build" name="ch33kybutt/oxygen_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="oxygen-rom/android_bionic" remote="github" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="bootable/recovery" name="oxygen-rom/android_bootable_recovery" remote="github" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -44,7 +44,7 @@
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/elfcopy" name="platform/external/elfcopy" />
+  <project path="external/elfcopy" name="ch33kybutt/oxygen_external_elfcopy" remote="github" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
@@ -95,16 +95,16 @@
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
-  <project path="external/svox" name="platform/external/svox" />
+  <project path="external/svox" name="ch33kybutt/oxygen_external_svox" remote="github" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="ch33kybutt/oxygen_external_webkit" remote="github" />
   <project path="external/wpa_supplicant_6" name="oxygen-rom/android_external_wpa_supplicant_6" remote="github" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
-  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" />
   <project path="frameworks/base" name="ch33kybutt/oxygen_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -115,7 +115,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="oxygen-rom/android_hardware_ril" remote="github" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="CyanogenMod/android_libcore" remote="github" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="oxygen-rom/android_packages_apps_bluetooth" remote="github" />
